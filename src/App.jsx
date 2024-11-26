@@ -6,6 +6,7 @@ import FindClienttwo from './components/FindClienttwo';
 import ServiceFinder from './components/Topheader';
 import SerbviceCard from './components/ServiceCard';
 import TestimonialCard from './components/Testemonial';
+import Downloadapp from './components/DounloadApp';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <FindClienttwo />
         <SerbviceCard />
         <TestimonialCard/>
+        <Downloadapp/>
     </div>
   );
 }
